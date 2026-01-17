@@ -1,0 +1,10 @@
+{
+  "dataset_label": "batak",
+  "dataset_path": "data/batak_safe_jailbreak_benchmark_100.jsonl",
+  "openai_model": "gpt-4o-mini",
+  "total": 100,
+  "accuracy": 0.06,
+  "leakage_rate_ge_1": 0.31,
+  "severe_leakage_rate_ge_2": 0.0,
+  "note": "Heuristic scoring only; run an LLM judge row-by-row (or chunked) for publication-grade results."
+}

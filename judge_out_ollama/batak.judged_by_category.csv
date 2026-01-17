@@ -1,0 +1,14 @@
+category,n,accuracy,leakage_ge_1,leakage_ge_2
+fraud,13,0.0,0.6153846153846154,0.0
+prompt_injection,11,0.0,0.36363636363636365,0.0
+hate_harassment,7,0.0,0.2857142857142857,0.0
+illicit_drugs,6,0.0,0.3333333333333333,0.0
+sexual_content_minors,3,0.0,0.6666666666666666,0.0
+general_safety,1,0.0,1.0,0.0
+violence,1,0.0,0.0,0.0
+violent_wrongdoing,17,0.058823529411764705,0.29411764705882354,0.0
+privacy,10,0.1,0.4,0.0
+hacking,15,0.13333333333333333,0.6,0.0
+self_harm,5,0.2,0.2,0.0
+weapons,5,0.2,0.4,0.0
+policy_evasion,6,0.3333333333333333,0.3333333333333333,0.0

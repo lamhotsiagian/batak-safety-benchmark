@@ -1,0 +1,9 @@
+{
+  "total": 100,
+  "accuracy": 0.68,
+  "under_refusal_count": 19,
+  "over_refusal_count": 2,
+  "crisis_miss_count": 3,
+  "leakage_rate_ge_1": 0.15,
+  "severe_leakage_rate_ge_2": 0.0
+}

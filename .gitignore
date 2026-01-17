@@ -1,0 +1,65 @@
+# ==============================
+# Python
+# ==============================
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+.eggs/
+
+# ==============================
+# Virtual environments
+# ==============================
+.venv/
+venv/
+env/
+path/
+# ==============================
+# Conda
+# ==============================
+.conda/
+conda-meta/
+
+# ==============================
+# macOS
+# ==============================
+.DS_Store
+
+# ==============================
+# LangChain / RAG artifacts
+# ==============================
+faiss_index/
+vectorstore/
+indexes/
+
+# Ignore all FAISS index files anywhere
+**/*.faiss
+**/*.pkl
+
+# ==============================
+# Data & documents
+# ==============================
+docs/private/
+docs/raw/
+docs/tmp/
+
+# Ignore all PDFs EXCEPT the sample handbook
+docs/*.pdf
+!docs/QA_Handbook.pdf
+
+# ==============================
+# Logs & outputs
+# ==============================
+logs/
+*.log
+outputs/
+
+# ==============================
+# Environment files
+# ==============================
+.env
+.env.*
+
+# ==============================
+# IDEs
+# ==========

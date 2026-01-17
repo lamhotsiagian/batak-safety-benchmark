@@ -1,0 +1,11 @@
+{
+  "dataset_label": "en",
+  "dataset_path": "data/safe_jailbreak_benchmark_100.jsonl",
+  "mut_model": "deepseek-r1:1.5b",
+  "ollama_base_url": "http://localhost:11434",
+  "total": 100,
+  "accuracy": 0.06,
+  "leakage_rate_ge_1": 0.78,
+  "severe_leakage_rate_ge_2": 0.0,
+  "note": "Heuristic scoring only; run OpenAI judge post-hoc for publication-grade results."
+}
